@@ -1,0 +1,80 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - pm2 > pm2-axon-rpc > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+    - pm2 > pmx > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > body-parser > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > finalhandler > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > send > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > serve-static > send > debug:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:ejs:20161128':
+    - remotedev-server > ejs:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:extend:20180424':
+    - remotedev-server > socketcluster > inquirer > external-editor > extend:
+        patched: '2022-10-06T01:10:36.651Z'
+  SNYK-JS-LODASH-567746:
+    - remotedev-server > lodash:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > inquirer > lodash:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > sc-broker-cluster > async > lodash:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:lodash:20180130':
+    - pm2 > cli-table2 > lodash:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > socketcluster-server > lodash:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > sc-broker-cluster > socketcluster-server > lodash:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:mime:20170907':
+    - remotedev-server > express > send > mime:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > serve-static > send > mime:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:moment:20161019':
+    - pm2 > moment:
+        patched: '2022-10-06T01:10:36.651Z'
+    - pm2 > cron > moment-timezone > moment:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:ms:20170412':
+    - pm2 > pm2-axon-rpc > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - pm2 > pmx > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > body-parser > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > send > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > finalhandler > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > send > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > serve-static > send > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > sc-auth > jsonwebtoken > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > express > serve-static > send > debug > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > socketcluster-server > sc-auth > jsonwebtoken > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > sc-broker-cluster > socketcluster-server > sc-auth > jsonwebtoken > ms:
+        patched: '2022-10-06T01:10:36.651Z'
+  'npm:ws:20160920':
+    - remotedev-server > socketcluster > socketcluster-server > ws:
+        patched: '2022-10-06T01:10:36.651Z'
+    - remotedev-server > socketcluster > sc-broker-cluster > socketcluster-server > ws:
+        patched: '2022-10-06T01:10:36.651Z'
